@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Graça e Vida</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/media-queries.css">         
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- Script
+   =================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	=================================================== -->
+	<link rel="shortcut icon" href="favicon.jpg" >
+
+</head>
+
+<body class="homepage">
+
+   <div id="preloader"> 
+	   <div id="status">
+         <img src="images/loader.gif" height="60" width="60" alt="">
+         <div class="loader">Loading...</div>
+      </div>
+   </div>
+   
+
+   <!-- Header
+   =================================================== -->
+   <header id="main-header">
+
+   	<div class="row header-inner">
+
+	      <div class="logo">
+	         <a class="smoothscroll" href="#hero">Inicio.</a>
+	      </div>
+
+	      <nav id="nav-wrap">         
+	         
+	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	         	<span class='menu-text'>Show Menu</span>
+	         	<span class="menu-icon"></span>
+	         </a>
+         	<a class="mobile-btn" href="#" title="Hide navigation">
+         		<span class='menu-text'>Hide Menu</span>
+         		<span class="menu-icon"></span>
+         	</a>         
+
+	         <ul id="nav" class="nav">
+	            <li class="current"><a class="smoothscroll" href="#hero">Home.</a></li>
+		         <li><a class="smoothscroll" href="#portfolio">Sobre nós.</a></li>
+	            <li><a class="smoothscroll" href="#calendario">Programação .</a></li>
+	            <li><a class="smoothscroll" href="#atividades">Atividades.</a></li>
+	            <li><a class="smoothscroll" href="#eventos">Próximos Eventos.</a></li>	            
+	            <li><a class="smoothscroll" href="#contact">Contatar ou Contribuir.</a></li>
+	         </ul> 
+
+	      </nav> <!-- /nav-wrap -->	      
+
+	   </div> <!-- /header-inner -->
+
+   </header> 
+
+
+   <!-- Hero
+   =================================================== -->
+   <section id="hero">	
+   
+				
+				<video autoplay muted loop id="myVideo">
+					<source src="videos/fundo.mp4" type="video/mp4">
+					Your browser does not support HTML5 video.
+				</video>
+				
+				
+				<!--
+				<h1 style="color: red; margin-top: 70px">Estamos Ao vivo!</h1>
+				<div class="video-responsive">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wPNYMjfpfjI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				-->
+  </iframe>
+</div>
+
+   </section> <!-- #hero -->
+
+
+   <!-- Portfolio
+   ================================================== -->
+   <section id="portfolio">
+
+	   	<div class="row section-head">
+		
+		<h1 style="font-size: 20px; color: #DFC051"> BEM-VINDO! </h1>
+		<p> Aqui é o lugar do recomeço!</P>
+		
+		
+		<div class="twelve columns">
+
+	         <h1>Fundação<span>.</span></h1>
+			 
+			 <img src="images/familia.jfif" alt=""/>     
+
+	         <hr />
+			 
+	         <p>A Igreja Cristã Internacional Graça e Vida foi fundada no dia 02 de Dezembro de 2015, pelos Missionários Bleyner Nery e Missionária Sâmia Nery, que vindo da França, 
+			    onde também fundaram a Igreja Assembleia de Deus Missão na França, no dia 19 de Novembro de 2011, vieram para Portugal para estabeleceram aqui a igreja.
+	         </p>
+			 <p>Deus direcionou o pastor Bleyner Nery e sua esposa, Missionária Sâmia Nery,  a íniciarem um trabalho evangelístico na cidade de Viseu – Portugal, na missão de alcançar pessoas para Cristo! Alugaram uma pequena sala, muito humilde, com capacidade para comportar aproximadamente 35 pessoas. 
+				O aluguel pago com recursos próprios. O material necessário para a abertura da igreja como cadeiras e o próprio púlpito foram fruto de doações.
+	         </p>
+			 <p>A igreja não dispunha de aparelhagem de som, apenas uma caixa amplificada emprestada, um microfone e um violão. 
+				Foram dias de grande realização na presença de Deus no aplicar de uma fé que olhava de maneira concreta para o futuro.    
+	         </p>
+			 
+			 <p>Com certeza, muitos olhavam um pequeno e simples salão, mas o pastor Bleyner e sua esposa, Miss. Sâmia, já enxergavam uma multidão de pessoas sedentas por Deus, e que era uma questão de tempo para saírem daquele lugar.  
+				Aprouve a Deus dar um templo maior com capacidade para 500 pessoas. Atualmente somos 183 membros (batizados) e congregados (membros não batizados e crianças).
+	         </p>
+			 <p><b>Somos sabedores que tudo isso é o trabalhar do Espírito Santo nas nossas vidas</b></p>
+			 <p>Até aqui nos ajudou o Senhor. “1Samuel 7:12”</p>
+
+	    </div>
+		
+		
+
+   		<div class="twelve columns">
+
+	         <h1>Conheça a Graça & Vida<span>.</span></h1>
+
+	         <hr />
+			 
+	         <p>“A Igreja GRAÇA & VIDA existe para honrar e servir a Deus na comunicação do Evangelho e na formação de discípulos de Jesus Cristo, maduros e engajados na renovação espiritual, social e cultural de Portugal e do mundo.”</p>
+
+	    </div>
+
+
+	  
+	  		<div class="row atividades-content" style="margin-left: 90px;">
+
+      		<div class="twelve columns">
+
+		         <div id="team-wrapper" class="bgrid-half mob-bgrid-whole group">
+
+		            <div class="bgrid member">
+
+						<div class="wpb_column vc_column_container vc_col-sm-4">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper">
+									<div class="vntd-icon-box icon-box-centered animated vntd-animated box fadeIn visible" data-animation="fadeIn" data-animation-delay="500"><a target="_self" title="Espiritualidade" class="icon-box-icon about-icon"><i class="fa fa-child"></i></a><h3 class="icon-box-title uppercase normal font-primary">Espiritualidade</h3><p class="icon-description">Promovemos a espiritualidade do Evangelho de Jesus Cristo</p>
+									
+									</div>
+								</div>
+							</div>
+						</div>
+		          	</div> <!-- /member -->
+
+		            <div class="bgrid member">
+
+						<div class="wpb_column vc_column_container vc_col-sm-4">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper">
+									<div class="vntd-icon-box icon-box-centered animated vntd-animated box fadeIn visible" data-animation="fadeIn" data-animation-delay="500"><a target="_self" title="Comunidade" class="icon-box-icon about-icon"><i class="fa fa-heart"></i></a><h3 class="icon-box-title uppercase normal font-primary">Comunidade</h3><p class="icon-description">Estimulamos vida comunitária saudável e transformadora</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+		       		</div> <!-- /member -->
+					
+					<div class="bgrid member">
+
+						<div class="wpb_column vc_column_container vc_col-sm-4">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper">
+									<div class="vntd-icon-box icon-box-centered animated vntd-animated box fadeIn visible" data-animation="fadeIn" data-animation-delay="500"><a target="_self" title="Cultura" class="icon-box-icon about-icon"><i class="fa fa-diamond"></i></a><h3 class="icon-box-title uppercase normal font-primary">Cultura</h3><p class="icon-description">Sinalizamos os valores e a cultura do Reino de Deus</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+		       		</div> <!-- /member -->
+					
+					<div class="bgrid member">
+
+						<div class="wpb_column vc_column_container vc_col-sm-4">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper">
+									<div class="vntd-icon-box icon-box-centered animated vntd-animated box fadeIn visible" data-animation="fadeIn" data-animation-delay="500"><a target="_self" title="Cultura" class="icon-box-icon about-icon"><i class="fa fa-home"></i></a><h3 class="icon-box-title uppercase normal font-primary">Transparência</h3><p class="icon-description">Somos transparentes com todos nossos compromissos financeiros</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+		       		</div> <!-- /member -->
+
+		         </div> <!-- /twelve -->
+
+	         </div> <!-- /team-wrapper -->
+		 
+		 </div>
+		 
+		 <div class="twelve columns">
+
+	         <h1>VALORES DA IGREJA GRAÇA & VIDA<span>.</span></h1>
+
+	         <hr />
+			 
+	    </div>
+		 
+	</div>
+      <div class="row atividades-content"> 
+
+      	<div class="mob-whole six columns left">
+
+      		<button type="button" class="collapsible">EXPOSIÇÃO BÍBLICA</button>
+			<div class="content">
+				<p>Entendemos que é por meio da exposição fiel das Escrituras que uma pessoa pode chegar ao conhecimento de Deus, à fé salvífica, bem como ser alimentado espiritualmente e conduzido à maturidade e vida transformada. Assim, a Igreja Graça & Vida prioriza em todas as suas atividades a exposição e o ensino da Palavra de Deus.</p>
+			</div>
+
+      	</div> <!-- /left -->
+
+      	<div class="mob-whole six columns right">
+
+	      	<button type="button" class="collapsible">RELACIONAMENTOS SIGNIFICATIVOS</button>
+			<div class="content">
+				<p>Numa era de relações descartáveis e interesseiras, a comunidade de Cristo é o ambiente onde encontramos relacionamentos significativos e profundos. Desta forma, a Igreja GRAÇA & VIDA tem como princípio incentivar e promover uma esfera de amor e acolhimento, visando a construção de laços que abençoam e refletem o amor de Jesus.</p>
+			</div>
+
+      	</div> <!-- /right -->
+
+      </div> <!-- /row -->    
+
+      <div class="row atividades-content"> 
+
+      	<div class="mob-whole six columns left">
+
+	      	<button type="button" class="collapsible">ADORAÇÃO BÍBLICA E CONTAGIANTE</button>
+			<div class="content">
+				<p>Adoração a Deus acontece tanto numa esfera íntima e pessoal, bem como no contexto público e comunitário. Entendemos que a adoração comunitária deve acontecer dentro dos princípios bíblicos que regem esta prática, bem como ser uma experiência contagiante e transformadora, fruto da ação do Espírito Santo, conduzindo o discípulo de Cristo a uma expressão de adoração aceitável a Deus.</p>
+			</div>
+
+      	</div> <!-- /left -->
+
+      	<div class="mob-whole six columns right">
+
+	      	<button type="button" class="collapsible">GESTÃO TRANSPARENTE DE RECURSOS</button>
+			<div class="content">
+				<p>Entendemos que um dos traços distintivos da liderança cristã e saúde comunitária é a gestão transparente, íntegra e fiel dos recursos do Reino. Por esta razão, a Igreja GRAÇA & VIDA tem suas contas auditadas por empresas terceiras de auditoria contábil e fiscal.</p>
+			</div>
+
+      	</div> <!-- /right -->
+
+      </div> <!-- /row -->
+	  
+	  <div class="row atividades-content"> 
+
+      	<div class="mob-whole six columns left">
+
+	      	<button type="button" class="collapsible">EXCELÊNCIA</button>
+			<div class="content">
+				<p>Entendemos que a excelência honra a Deus e inspira pessoas. Desta forma, a Igreja GRAÇA & VIDA está comprometida em buscar excelência em todas as suas esferas de atuação, desde as mais simples até as mais complexas.</p>
+			</div>
+
+      	</div> <!-- /left -->
+
+      	<div class="mob-whole six columns right">
+
+	      	<button type="button" class="collapsible">DISCIPULADO E FORMAÇÃO ESPIRITUAL</button>
+			<div class="content">
+				<p>A Igreja Graça & Vida tem como tarefa a formação de discípulos que amem a Deus acima de todas as coisas e que atuem no mundo como agentes de promoção da justiça social, renovação cultural e transformação espiritual. Portanto, é compromisso da Igreja Graça & Vida trabalhar para que todos os seus membros e frequentadores estejam imersos na dinâmica do discipulado, sendo pastoreados e preparados para uma vida frutífera em seus mais variados contextos.</p>
+			</div>
+
+      	</div> <!-- /right -->
+
+      </div> <!-- /row -->
+	  
+	  	  <div class="row atividades-content"> 
+
+      	<div class="mob-whole six columns left">
+
+	      	<button type="button" class="collapsible">LIDERANÇA IDÔNEA E CAPACITADORA</button>
+			<div class="content">
+				<p>A liderança cristã deve ser exercida por pessoas que demonstrem sério compromisso com Deus, que sejam identificados pelo testemunho de idoneidade e que sejam comprometidos na capacitação de outros para o serviço no Reino. Desta forma, a Igreja Graça & Vida estabelece critérios sólidos para que seus líderes atuem como exemplos de vida cristã, bem como agentes de capacitação dentro da comunidade.
+					<p>DENOMINAMOS OS 5 PILARES </p>
+					<p>•	Caráter</p>
+					<p>•	Princípio</p>
+					<p>•	Ética</p>
+					<p>•	Compromisso</p>
+					<p>•	Responsabilidade</p>
+				</p>
+			</div>
+
+      	</div> <!-- /left -->
+
+      	<div class="mob-whole six columns Right">
+
+	      	<button type="button" class="collapsible">INFLUÊNCIA MISSIONAL</button>
+			<div class="content">
+				<p><u>O chamado para sermos testemunhas de Cristo Jesus compreende não somente a esfera local, mas também o contexto global. Em outras palavras, os discípulos de Jesus são chamados para produzir impacto, influenciar e agir de maneira transformadora em todas as esferas, em todos os lugares, para com todas as pessoas.</u>
+				</p>
+			</div>
+
+      	</div> <!-- /right -->
+      </div> <!-- /row -->
+	  
+	  <br/>
+		
+    <!-- team	=================================================== -->
+   	<div id='team'>
+
+	      <div class="row team section-head">
+
+	   		<div class="twelve columns">
+
+		         <h1>A Presidência<span>.</span>
+				 
+				 </h1>
+
+		         <hr />         
+				<img src="images/casal.jfif" alt=""/>  
+				
+				<p><b>Casados há 25 anos e pais de 4 filhos:</b></p>
+				<p>Sarah Nery, Gabriel Nery, Sophia Nery e Bleyner Júnior. Estão na obra missionária há 16 anos, atualmente em Viseu – Portugal.</p>
+
+		    </div>
+
+	      </div>
+
+      	<div class="row atividades-content">
+
+      		<div class="twelve columns">
+
+		         <div id="team-wrapper" class="bgrid-half mob-bgrid-whole group">
+
+		            <div class="bgrid member">
+
+		               <div class="member-header">
+
+		                 	<div class="member-pic">
+									<img src="images/team/bleyner.png" alt=""/>                        	                       	
+		                 	</div>
+
+		                  <div class="member-name">
+		                     <h3>Bleyner Nery</h3>
+		                     <span>Pastor Presidente</span>
+		                  </div>
+
+		               </div>							
+
+		               <p>“Ora, ao Rei dos séculos, imortal, invisível, ao único Deus sábio, seja honra e glória para todo o sempre. Amém.” <b>S1 Tm 1:17</b></p>
+
+		               <ul class="member-social">
+		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		               </ul>
+
+		          	</div> <!-- /member -->
+
+		            <div class="bgrid member">
+
+		              	<div class="member-header">
+										
+								<div class="member-pic">
+		                 		<img src="images/team/member02-k.png" alt=""/>                        	
+		                	</div>
+		                
+		                	<div class="member-name">
+		                   	<h3>Sâmia Nery</h3>
+		                   	<span>Missionária</span>
+		                	</div>
+
+		               </div>
+
+		               <p>“Bendiga o Senhor a minha alma! Não esqueça nenhuma de suas bênçãos!” <b>Sl 103:2 </b></p>
+
+		               <ul class="member-social">
+		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		               </ul>
+
+		       		</div> <!-- /member -->
+
+		         </div> <!-- /twelve -->
+
+	         </div> <!-- /team-wrapper -->
+			 
+
+
+         </div> <!-- /row -->
+			 <div class="declaracaoFe">
+				<h1>Declaração de Fé<span>.</span></h1>
+				<p> Acesse a declaração de Fé da Graça e Vida</P>
+				<a href="declaracao.pdf" target="_blank"> <button style= "background-color: #DFC051;"> Clique Aqui  </button> </a>
+			 </div>
+      </div> <!-- /team -->     
+      
+   </section> <!-- /Portfolio -->
+
+
+   <!-- calendario Section
+   ================================================== -->
+   <section id="calendario">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Nossa programação<span>.</span></h1>
+
+	         <hr />
+
+         </div>
+
+    </div>
+
+      <div class="row">
+
+      	<div class="twelve columns">
+
+	      	<div class="service-list bgrid-third s-bgrid-half mob-bgrid-whole">
+
+	      		<div class="bgrid">
+
+	               <div class="icon-part">
+	               	<span class="icon-calendar"></span>
+	               </div>
+
+	               <h3>Quarta-Feira.</h3>
+
+	               <div class="service-content">	                  
+		               <p>Culto de ensino</p> 
+					   <p>20:00 Hrs</p>
+					   <p>“Eu o instruirei e o ensinarei no caminho que você deve seguir; eu o aconselharei e cuidarei de você.” (Salmos 32:8).</p>
+					   
+	               </div>      
+
+	            </div> <!-- /bgrid -->
+
+				<div class="bgrid">
+
+	              	<div class="icon-part">
+	               	<i class="icon-calendar"></i>
+	               </div>
+
+	               <h3>Sexta-Feira.</h3>                  
+
+	               <div class="service-content">	                  
+		               <p>Culto do jovens</p> 
+					   <p>20:00 Hrs</p> 
+					   <p>“Jovens, eu escrevi a vocês, porque são fortes, e em vocês a Palavra de Deus permanece, e vocês venceram o Maligno.” (1 João 2:14).</p>
+	               </div>                                 
+
+	            </div> <!-- /bgrid -->
+
+				<div class="bgrid">
+
+	              	<div class="icon-part">	               	
+	               	<i class="icon-calendar"></i>
+	               </div>
+
+	               <h3>Sábado.</h3>
+				   
+	               <div class="service-content">		   
+		               <p>Culto da família</p> 
+					   <p>19:00 Hrs</p> 				   
+		               <p>“Crê no Senhor Jesus que será salvo tu e tua família” (Atos 16.31).</p>
+	               </div>                               
+
+	            </div> <!-- /bgrid -->
+				
+				   	<div class="row section-head">
+
+					<div class="twelve columns">
+
+					<h1>Local<span>.</span></h1>
+						<p>Rua Fabrica, Estr. São João da Carreira Lote 7, 3500-187 Viseu</p>
+					<hr />
+
+				</div>
+
+				</div>
+				
+				<div class="bgrid"> 
+					
+				</div>
+
+	        </div> <!-- /bgrid -->
+
+	      	</div> <!-- /service-list -->
+			
+	      </div> <!-- /twelve -->
+	  		<div class="map-responsive">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d378.270597043882!2d-7.8872979!3d40.6703382!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2337b09e7fc6e9%3A0xffa43e1dbac8e807!2sIgreja%20Crist%C3%A3%20Internacional%20Gra%C3%A7a%20e%20Vida!5e0!3m2!1spt-PT!2spt!4v1644241133600!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+      </div> <!-- /row -->      
+	  
+   </section> <!-- /calendario -->   
+
+
+   <!-- Atividades
+   ================================================== -->
+   <section id="atividades">
+
+   	<div class="row section-head">
+
+      	<div class="twelve columns">
+
+	         <h1>Nossas Atividades<span>.</span></h1>
+
+	         <hr />
+
+	         <p>Além da nossa programação de cultos temos algumas atividades que acontecem em nossa igreja.</p>
+
+	      </div>
+
+      </div>
+
+      <div class="row items">
+
+      	<div class="twelve columns">
+
+            <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third mob-bgrid-half group">
+
+               <div class="bgrid stack item">
+                  <div class="item-wrap">
+
+                     <a href="cursoteologia.html">
+                        <img src="images/portfolio/teologia.jpg" alt="Beetle">                        
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Curso de teologia</h5>
+                              <p>Aprenda mais sobre a bíblia</p>
+          					</div>
+                        </div>                        
+                     </a>
+
+                  </div>
+          		</div> <!-- /item -->
+
+               <div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="escolamusica.html">
+                        <img src="images/portfolio/banjo-player.jpg" alt="Banjo Player">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Escola de música</h5>
+                              <p>Aprenda a tocar ou cantar</p>
+          					</div>
+                        </div>                       
+                     </a>
+                  </div>
+          		</div> <!-- /item -->
+				
+				<div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="cultoinfantil.html">
+                        <img src="images/portfolio/criancas.jpg" alt="Banjo Player">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Culto infantil</h5>
+                              <p>“Deixem vir a mim as crianças e não as impeçam; pois o Reino dos céus pertence aos que são semelhantes a elas”. (Mateus 19:14)</p>
+          					</div>
+                        </div>                       
+                     </a>
+                  </div>
+          		</div> <!-- /item -->
+				
+				<div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="jovens.html">
+                        <img src="images/portfolio/jovens.jpg" alt="Banjo Player">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Culto de Jovens</h5>
+                              <p>“Eu vos escrevi, jovens, porque sois fortes, e a palavra de Deus está em vós, e já vencestes o maligno”. (1 João 2:14)</p>
+          					</div>
+                        </div>                       
+                     </a>
+                  </div>
+          		</div> <!-- /item -->
+
+
+            </div> <!-- /portfolio-wrapper -->
+
+         </div> <!-- /twelve -->
+
+      </div>  <!-- /row -->
+
+
+      <br/>
+
+   </section> <!-- /calendário -->
+
+
+   <!-- eventos
+   =================================================== -->
+   <section id="eventos">
+
+	   <div class="row section-head">
+
+	   	<div class="twelve columns">
+
+			   <h1>Próximos eventos<span>.</span></h1>
+
+			   <hr />
+
+			   <p>Fique por dentro de nossos próximos eventos</p>	         
+
+		    </div>
+
+	   </div>
+
+      <div class="row">
+
+      	<div class="twelve columns">
+
+	         <div id="blog-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole group">
+
+<!--
+	            <article class="bgrid">
+						
+						<h5>Fevereiro 25, 2022</h5>
+							<h3>Pastor João</h3>
+	                           
+							<p>Venha receber uma palavra do pastor João</p>
+	                        
+	            </article>
+
+	            <article class="bgrid">
+						
+						<h5>Março 20, 2022</h5>
+							<h3>Pastora Maria</h3>
+	                           
+							<p>Venha receber uma palavra da pastora Maria.</p>
+	                        
+	            </article>
+
+	            <article class="bgrid">
+						
+						<h5>Abril 15, 2022</h5>	
+							<h3>Palestra sobre Política</h3>
+	                           
+							<p>Palestra ministrada sobre a política</p>
+	                        
+	            </article>
+	         </div> <!-- /blog-wrapper -->
+-->
+	      </div> <!-- /twelve -->
+
+      </div> <!-- /row -->
+
+   </section> <!-- /blog -->
+
+   
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+			<div>
+			
+				<h1> Contribua com a nossa obra<span>.</span></h1>
+				
+				<img src="images/contribua.jpg" alt="Banjo Player">
+				
+			</div>
+
+	         <h1>SEJA MEMBRO<span>.</span></h1>
+			 <hr />
+			 
+			 <p>COMO TORNAR-ME MEMBRO DA <b>IGREJA GRAÇA & VIDA </b>Faça sua inscrição através do formulário abaixo.</p>
+			 
+			 <p> Realizamos uma reunião planejada para aqueles que desejam conhecer ou fazer parte da membresia da Igreja GRAÇA & VIDA. 
+			 É um bate papo com duração de 1 hora e 30 minutos, onde são apresentados a história, a missão, os valores, os traços teológicos distintivos, a estrutura de governança e a liderança da IGREJA GRAÇA & VIDA. 
+			 Esta reunião é dirigida pelo pastor Bleyner Nery ou a quem ele delegar, num ambiente de bastante interatividade, descontração e informalidade. 
+			 Será uma alegria receber você e esclarecer suas dúvidas acerca de quem nós somos e porque existimos.</p>
+			 
+			<p>Nossas mídias sociais</p>
+			 
+			 <div class="sociais">
+			 <a href="https://www.facebook.com/ccigv/" target="_blank" class="fa fa-facebook"></a>
+			 <a href="https://www.instagram.com/icigv/"  target="_blank" class="fa fa-instagram"></a>
+			 <a href="https://www.youtube.com/channel/UCPtnpUpoLo0bLIexPPlVLWg"  target="_blank" class="fa fa-youtube"></a>
+			 <div>
+
+	      </div>
+
+      </div>
+
+      <div class="row form-section">
+      	
+      	<div id="contact-form" class="twelve columns">
+
+            <form name="contactForm" id="contactForm" method="post" action="">
+
+      			<fieldset>
+
+                  <div class="row">
+
+	                  <div class="six columns mob-whole">
+	                  	<label for="contactFname">First Name <span class="required">*</span></label>	      						   
+	      					<input name="contactFname" type="text" id="contactFname" placeholder="First Name" value="" />	      					
+	                  </div>
+
+	                  <div class="six columns mob-whole">	
+	                  	<label for="contactLname">Last Name <span class="required">*</span></label>      						   
+	      					<input name="contactLname" type="text" id="contactLname" placeholder="Last Name" value="" />	      					
+	                  </div>	                        
+
+                  </div>
+
+                  <div class="row">
+
+	                  <div class="six columns mob-whole">	
+	                  	<label for="contactEmail">Email <span class="required">*</span></label>      						   
+	      					<input name="contactEmail" type="text" id="contactEmail" placeholder="Email" value="" />	      					
+	                  </div>
+
+	                  <div class="six columns mob-whole">	 
+	                  	<label for="contactSubject">Subject</label>     						   
+	      					<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />	      					
+	                  </div>
+
+                  </div>
+
+                  <div class="row">
+
+	                  <div class="twelve columns">
+	                     <label  for="contactMessage">Message <span class="required">*</span></label>
+	                     <textarea name="contactMessage"  id="contactMessage" placeholder="Your Message" rows="10" cols="50" ></textarea>
+	                  </div>
+
+                  </div>
+
+                  <div>
+                     <button class="submit full-width">Send Message</button>
+                     <div id="image-loader">
+                        <img src="images/loader.gif" alt="" />
+                     </div>
+                  </div>
+      			</fieldset>
+      				
+      		</form> <!-- /contactForm -->
+
+            <!-- message box -->
+            <div id="message-warning"></div>
+            <div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br />
+    			</div>
+
+         </div> <!-- /contact-form -->      	
+
+      </div> <!-- /form-section -->     
+
+   </section>  <!-- /contact-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/backstretch.js"></script> 
+   <script src="js/waypoints.js"></script>  
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
