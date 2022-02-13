@@ -661,7 +661,7 @@
 							<p>Responsável: Ev. Renan</p>
 	                        
 	            </article>
-	         </div> <!-- /blog-wrapper 
+	         </div> 
 
 	      </div> <!-- /twelve -->
 
@@ -688,23 +688,16 @@
 
    				<h1>SEJA MEMBRO</h1>
    				<hr />
-
-   				<p>COMO TORNAR-ME MEMBRO DA <b>IGREJA GRAÇA & VIDA </b>Faça sua inscrição através do formulário abaixo.</p>
-
-   				<p> Realizamos uma reunião planejada para aqueles que desejam conhecer ou fazer parte da membresia da Igreja GRAÇA & VIDA. 
-   					É um bate papo com duração de 1 hora e 30 minutos, onde são apresentados a história, a missão, os valores, os traços teológicos distintivos, a estrutura de governança e a liderança da IGREJA GRAÇA & VIDA. 
-   					Esta reunião é dirigida pelo pastor Bleyner Nery ou a quem ele delegar, num ambiente de bastante interatividade, descontração e informalidade. 
-   				Será uma alegria receber você e esclarecer suas dúvidas acerca de quem nós somos e porque existimos.</p>
-
-   				<p>Nossas mídias sociais</p>
-
-   				<div class="sociais">
-   					<a href="https://www.facebook.com/ccigv/" target="_blank" class="fa fa-facebook"></a>
-   					<a href="https://www.instagram.com/icigv/"  target="_blank" class="fa fa-instagram"></a>
-   					<a href="https://www.youtube.com/channel/UCPtnpUpoLo0bLIexPPlVLWg"  target="_blank" class="fa fa-youtube"></a>
-   					<div>
-
-   				</div>
+<!--
+   				   <button type="button" class="collapsible2"><p>COMO TORNAR-ME MEMBRO DA IGREJA GRAÇA & VIDA </p></button>
+   					<div class="content">
+   						<p> Realizamos uma reunião planejada para aqueles que desejam conhecer ou fazer parte da membresia da Igreja GRAÇA & VIDA. 
+   						É um bate papo com duração de 1 hora e 30 minutos, onde são apresentados a história, a missão, os valores, os traços teológicos distintivos, a estrutura de governança e a liderança da IGREJA GRAÇA & VIDA. 
+   						Esta reunião é dirigida pelo pastor Bleyner Nery ou a quem ele delegar, num ambiente de bastante interatividade, descontração e informalidade. 
+   						Será uma alegria receber você e esclarecer suas dúvidas acerca de quem nós somos e porque existimos.</p>
+   					</div>
+-->
+						 <p>Faça sua inscrição através do formulário abaixo.</p>
 
    				</div>
 
@@ -769,6 +762,16 @@
    							<i class="fa fa-check"></i>Sua mensagem foi enviada, Obrigado!<br />
    						</div>
 
+   						<p>Nossas mídias sociais</p>
+
+   						<div class="sociais">
+   						<a href="https://www.facebook.com/ccigv/" target="_blank" class="fa fa-facebook"></a>
+   						<a href="https://www.instagram.com/icigv/"  target="_blank" class="fa fa-instagram"></a>
+   						<a href="https://www.youtube.com/channel/UCPtnpUpoLo0bLIexPPlVLWg"  target="_blank" class="fa fa-youtube"></a>
+   					<div>
+
+   				</div>
+
    					</div> <!-- /contact-form -->      	
 
    				</div> <!-- /form-section -->     
@@ -792,6 +795,23 @@
 
    	<script>
    		var coll = document.getElementsByClassName("collapsible");
+   		var i;
+
+   		for (i = 0; i < coll.length; i++) {
+   			coll[i].addEventListener("click", function() {
+   				this.classList.toggle("active");
+   				var content = this.nextElementSibling;
+   				if (content.style.display === "block") {
+   					content.style.display = "none";
+   				} else {
+   					content.style.display = "block";
+   				}
+   			});
+   		}
+   	</script>
+
+   	   	<script>
+   		var coll = document.getElementsByClassName("collapsible2");
    		var i;
 
    		for (i = 0; i < coll.length; i++) {
