@@ -64,7 +64,7 @@
          	</a>         
 
 	         <ul id="nav" class="nav">
-	            <li><a href="index.html#hero">Home.</a></li>
+	            <li><a href="index.html#home">Home.</a></li>
 		         <li><a href="index.html#portfolio">Works.</a></li>
 	            <li><a href="index.html#services">Services.</a></li>
 	            <li><a href="index.html#atividades">atividades.</a></li>
@@ -87,7 +87,7 @@
 
 			<div class="twelve columns">
 
-				<h1>Our Blog<span>.</span></h1>
+				<h1>Our Blog</h1>
 				<p>Aenean condimentum lacus sit amet luctus lobortis.</p>
 
 			</div>			    

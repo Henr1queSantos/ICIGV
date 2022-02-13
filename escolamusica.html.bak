@@ -64,7 +64,7 @@
          	</a>         
 
 	         <ul id="nav" class="nav">
-	            <li><a href="index.html#hero">Home.</a></li>
+	            <li><a href="index.html#home">Home.</a></li>
 		         <li><a href="index.html#portfolio">Sobre nós.</a></li>
 	            <li><a href="index.html#calendario">Programação .</a></li>
 	            <li class="current"><a href="index.html#atividades">Atividades.</a></li>
@@ -87,7 +87,7 @@
 
 			<div class="twelve columns">
 
-				<h1>Escola de Música<span>.</span></h1>
+				<h1>Escola de Música</h1>
 				<p>Aprenda a tocar algum instrumento ou a cantar.</p>
 
 			</div>			    

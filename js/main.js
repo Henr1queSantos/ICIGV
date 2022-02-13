@@ -24,8 +24,8 @@
   	/*----------------------------------------------------*/
 
   	if($("html").hasClass('ie8')) {
-  		$("#hero").backstretch("images/hero-bg.jpg");  	
-  		$("#page-title").backstretch("images/hero-bg.jpg");	
+  		$("#home").backstretch("images/home-bg.jpg");  	
+  		$("#page-title").backstretch("images/home-bg.jpg");	
   	} 
 
    /*----------------------------------------------------*/
@@ -156,7 +156,7 @@
   	/*----------------------------------------------------*/
   	$(window).load(function() {  		
 
-	  	$('#hero-slider').flexslider({
+	  	$('#home-slider').flexslider({
 	   	namespace: "flex-",
 	      controlsContainer: ".flex-container",
 	      animation: 'fade',

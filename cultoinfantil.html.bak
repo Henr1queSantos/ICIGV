@@ -64,7 +64,7 @@
          	</a>         
 
 	         <ul id="nav" class="nav">
-	            <li><a href="index.html#hero">Home.</a></li>
+	            <li><a href="index.html#home">Home.</a></li>
 		         <li><a href="index.html#portfolio">Sobre nós.</a></li>
 	            <li><a href="index.html#calendario">Programação .</a></li>
 	            <li class="current"><a href="index.html#atividades">Atividades.</a></li>
@@ -87,7 +87,7 @@
 
 			<div class="twelve columns">
 
-				<h1>Culto Infantil<span>.</span></h1>
+				<h1>Culto Infantil</h1>
 				<p>“Deixem vir a mim as crianças e não as impeçam; pois o Reino dos céus pertence aos que são semelhantes a elas”. (Mateus 19:14)</p>
 
 			</div>			    

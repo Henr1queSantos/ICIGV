@@ -48,7 +48,7 @@
    	<div class="row header-inner">
 
 	      <div class="logo">
-	         <a class="smoothscroll" href="#hero">Inicio.</a>
+	         <a class="smoothscroll" href="#home">Inicio.</a>
 	      </div>
 
 	      <nav id="nav-wrap">         
@@ -63,7 +63,7 @@
          	</a>         
 
 	         <ul id="nav" class="nav">
-	            <li class="current"><a class="smoothscroll" href="#hero">Home.</a></li>
+	            <li class="current"><a class="smoothscroll" href="#home">Home.</a></li>
 		         <li><a class="smoothscroll" href="#portfolio">Sobre nós.</a></li>
 	            <li><a class="smoothscroll" href="#calendario">Programação .</a></li>
 	            <li><a class="smoothscroll" href="#atividades">Atividades.</a></li>
@@ -78,9 +78,9 @@
    </header> 
 
 
-   <!-- Hero
+   <!-- home
    =================================================== -->
-   <section id="hero">	
+   <section id="home">	
    
 				
 				<video autoplay muted loop id="myVideo">
@@ -98,7 +98,7 @@
   </iframe>
 </div>
 
-   </section> <!-- #hero -->
+   </section> <!-- #home -->
 
 
    <!-- Portfolio
