@@ -182,11 +182,11 @@
       var contactFname = $('#contactForm #contactFname').val();
       var contactLname = $('#contactForm #contactLname').val();
       var contactEmail = $('#contactForm #contactEmail').val();
-      var contactSubject = $('#contactForm #contactSubject').val();
+      var contactPhone = $('#contactForm #contactPhone').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
       var data = 'contactFname=' + contactFname  + '&contactLname=' + contactLname + 
-                 '&contactEmail=' + contactEmail + '&contactSubject=' + contactSubject + 
+                 '&contactEmail=' + contactEmail + '&contactPhone=' + contactPhone + 
                  '&contactMessage=' + contactMessage;
 
       $.ajax({
