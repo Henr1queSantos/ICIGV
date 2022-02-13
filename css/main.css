@@ -47,6 +47,12 @@ body {
 	font-weight: normal;
 	color: #575859;
 }
+iframe {    /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 50vh;        /* Viewport-relative units */
+    width: 30vw;
+}
 
 /* Links
 ---------------------------------------------------------------------- */

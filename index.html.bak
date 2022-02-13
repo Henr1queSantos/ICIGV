@@ -113,7 +113,7 @@
 		
 		<div class="twelve columns">
 
-	         <h1>Fundação<span>.</span></h1>
+	         <h1>Fundação</h1>
 			 
 			 <img src="images/familia.jfif" alt=""/>     
 
@@ -141,7 +141,7 @@
 
    		<div class="twelve columns">
 
-	         <h1>Conheça a Graça & Vida<span>.</span></h1>
+	         <h1>Conheça a Graça & Vida</h1>
 
 	         <hr />
 			 
@@ -217,7 +217,7 @@
 		 
 		 <div class="twelve columns">
 
-	         <h1>VALORES DA IGREJA GRAÇA & VIDA<span>.</span></h1>
+	         <h1>VALORES DA IGREJA GRAÇA & VIDA</h1>
 
 	         <hr />
 			 
@@ -328,7 +328,7 @@
 
 	   		<div class="twelve columns">
 
-		         <h1>A Presidência<span>.</span>
+		         <h1>A Presidência
 				 
 				 </h1>
 
@@ -404,7 +404,7 @@
 
          </div> <!-- /row -->
 			 <div class="declaracaoFe">
-				<h1>Declaração de Fé<span>.</span></h1>
+				<h1>Declaração de Fé</h1>
 				<p> Acesse a declaração de Fé da Graça e Vida</P>
 				<a href="declaracao.pdf" target="_blank"> <button style= "background-color: #DFC051;"> Clique Aqui  </button> </a>
 			 </div>
@@ -421,7 +421,7 @@
 
    		<div class="twelve columns">
 
-	         <h1>Nossa programação<span>.</span></h1>
+	         <h1>Nossa programação</h1>
 
 	         <hr />
 
@@ -488,7 +488,7 @@
 
 					<div class="twelve columns">
 
-					<h1>Local<span>.</span></h1>
+					<h1>Local</h1>
 						<p>Rua Fabrica, Estr. São João da Carreira Lote 7, 3500-187 Viseu</p>
 					<hr />
 
@@ -521,7 +521,7 @@
 
       	<div class="twelve columns">
 
-	         <h1>Nossas Atividades<span>.</span></h1>
+	         <h1>Nossas Atividades</h1>
 
 	         <hr />
 
@@ -619,7 +619,7 @@
 
 	   	<div class="twelve columns">
 
-			   <h1>Próximos eventos<span>.</span></h1>
+			   <h1>Próximos eventos</h1>
 
 			   <hr />
 
@@ -681,13 +681,13 @@
 
 			<div>
 			
-				<h1> Contribua com a nossa obra<span>.</span></h1>
+				<h1> Contribua com a nossa obra</h1>
 				
 				<img src="images/contribua.jpg" alt="Banjo Player">
 				
 			</div>
 
-	         <h1>SEJA MEMBRO<span>.</span></h1>
+	         <h1>SEJA MEMBRO</h1>
 			 <hr />
 			 
 			 <p>COMO TORNAR-ME MEMBRO DA <b>IGREJA GRAÇA & VIDA </b>Faça sua inscrição através do formulário abaixo.</p>
