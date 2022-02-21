@@ -828,6 +828,7 @@ header .logo a {
 	height: 12px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
+	background-image: url("../images/logo.png");
 }
 .collapsible {
   background-color: #DFC051;
