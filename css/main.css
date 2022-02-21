@@ -1443,6 +1443,12 @@ hr {
 }
 .ie8 #home { background: #12151b; }
 
+#Videos {
+  right: 0;
+  bottom: 0;
+  max-width: 75%; 
+}
+
 #myVideo {
 	margin-top: 50px;
   right: 0;
@@ -1450,6 +1456,7 @@ hr {
   min-width: 100%; 
   min-height: 100%;
 }
+
 
 /* Flex slider settings
 /* ------------------------------------------------------------------ */
@@ -1478,6 +1485,16 @@ hr {
 }
 .flexslider .slides > li {
 	position: relative;
+}
+
+.legendTitle{
+	margin-top: 40px;
+  color: black;
+  padding: 5px 10px;
+}
+.fieldsetStyle{
+	border-style: double;
+	border-color: #DFC051;
 }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
