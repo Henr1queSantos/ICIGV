@@ -842,6 +842,27 @@ header .logo a {
   font-size: 15px;
 }
 
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+  color: red;
+}
+
+.mensagemAlerta{
+	margin-bottom: 75px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .collapsible2 {
   background-color: #DFC051 !important;
   color: white !important;
@@ -1622,7 +1643,7 @@ hr {
 /* =================================================================== */
 #portfolio {
 	background: white;
-	padding-top: 120px;
+	padding-top: 45px;
 }
 .ie #portfolio .row.items {
 	width: 1140px;
