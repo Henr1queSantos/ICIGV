@@ -700,6 +700,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	content: none;
 }
 
+.YoutubeResponsive{
+width: 100%;
+}
+.YoutubeResponsive iframe{
+width: 100%;
+}
+
+
 /* 
 /*  Stats Tab Markup
 
