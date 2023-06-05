@@ -804,7 +804,6 @@ header {
 	z-index: 990;
 	text-align: center;
 	background: #12151B;
-	background: rgba(18, 21, 27, 0.5);
 	-moz-transition: background 0.5s ease-in-out;
 	-o-transition: background 0.5s ease-in-out;
 	-webkit-transition: background 0.5s ease-in-out;
