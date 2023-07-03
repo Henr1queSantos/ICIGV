@@ -42,7 +42,7 @@
 /* Body
 ---------------------------------------------------------------------- */
 body {
-	background: #0e1015;
+	background: white;
 	font: 15px/30px "merriweather-regular", serif;
 	font-weight: normal;
 	color: #575859;
@@ -849,6 +849,18 @@ header .logo a {
   font-size: 15px;
 }
 
+.collapsibleFiliais {
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
 .blink {
   animation: blink 1s steps(1, end) infinite;
   color: red;
@@ -980,7 +992,7 @@ header .logo a {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
@@ -1756,6 +1768,10 @@ hr {
 .declaracaoFe{
 	text-align: -webkit-center;
 }
+.filiaisheader{
+	text-align: -webkit-center;
+}
+
 .fa {
   font-size: 30px;
   width: 50px;
@@ -1828,6 +1844,14 @@ hr {
 	margin-top: 66px;
 	padding-top: 78px;
 	padding-bottom: 120px;
+}
+
+#filiais {
+	background: white;
+	margin-top: 66px;
+	padding-top: 78px;
+	padding-bottom: 120px;
+	font-family: "raleway-bold", sans-serif
 }
 #team-wrapper {
 	margin: 24px -18px 0 -18px;
