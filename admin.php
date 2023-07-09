@@ -199,6 +199,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		<button class="btn btn-primary" id="show-form-btn">Formulário de Cadastro</button>
 		<button class="btn btn-primary" id="listar-membros-btn">Listar todos membros</button>
 		<button class="btn btn-primary" id="listar-aniversariantes-btn">Listar Aniversariantes do Mês</button>
+		<button class="btn btn-primary" id="alterar-carrusel-btn">Alterar Carrusel</button>
 		<form method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>" class="form-inline" id='formbuscanome'>
 			<div class="form-group">
 				<label for="search">Buscar por nome:</label>
@@ -547,6 +548,13 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET["search"])) {
 			
 			// Event listener para o botão "Formulario"
 			document.getElementById("show-form-btn").addEventListener("click", showform);
+			
+			// Evento de clique no botão "Alterar Carrusel"
+			var alterarCarruselBtn = document.getElementById("alterar-carrusel-btn");
+			alterarCarruselBtn.addEventListener("click", function() {
+				// Abrir a página do carrossel
+				window.location.href = "carrossel.php";
+			});
         </script>
     </div>
 </body>
