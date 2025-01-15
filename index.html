@@ -24,6 +24,7 @@
          <!-- Script
          	=================================================== -->
          	<script src="js/modernizr.js"></script>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
          <!-- Favicons
          	=================================================== -->
@@ -852,28 +853,55 @@
          			<div class="twelve columns">
 
          				<div id="blog-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole group">  
+                  <div id="events-container"></div>
+        <script>
+$(document).ready(function () {
+    $.getJSON('events.php', function (data) {
+        let container = $('#events-container');
 
-                 <!-- <article class="bgrid">
-                    <h5>12 de OUTUBRO, 2024</h5>
-                    <h3>CONFERÊNCIA DE MISSÕES</h3>            
-                    <p>RESPONSÁVEL: PR. JOAQUIM</p>
-                  </article>
+        for (let country in data) {
+            let section = `
+                <div class="accordion mb-3" id="accordion-${country}">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-${country}">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-${country}" aria-expanded="true" aria-controls="collapse-${country}">
+                                ${country}
+                            </button>
+                        </h2>
+                        <div id="collapse-${country}" class="accordion-collapse collapse show" aria-labelledby="heading-${country}" data-bs-parent="#accordion-${country}">
+                            <div class="accordion-body">
+                                <ul class="list-group">
+            `;
 
-                  <article class="bgrid">
-                    <h5>19 de OUTUBRO, 2024</h5>
-                    <h3>ANIVERSÁRIO G & V - LUXEMBURGO</h3>            
-                    <p>RESPONSÁVEL: PR. UEBSON</p>
-                  </article>
+            data[country].forEach(event => {
+                // Convert the date format
+                const originalDate = new Date(event.date); // Convert the string to a Date object
+                const formattedDate = originalDate.toLocaleDateString('en-GB'); // Format as DD-MM-YYYY
 
-                  <article class="bgrid">
-                    <h5>16 de NOVEMBRO, 2024</h5>
-                    <h3>ANIVERÁRIO DA ADMF</h3>           
-                    <p>RESPONSÁVEL: PR. WELINGTON</p>   
-                  </article>-->
+                // Add "Responsável" before ${event.responsible}
+                section += `
+                    <li class="list-group-item">
+                        <strong>${formattedDate}</strong> - ${event.event_name} - <strong>Responsável:</strong> ${event.responsible}
+                    </li>
+                `;
+            });
 
-                  
+            section += `
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.append(section);
+        }
+    }).fail(function (jqXHR, textStatus, errorThrown) {
+        console.error("Error fetching events:", textStatus, errorThrown);
+    });
+});
 
-                  
+
+    </script>
                 </div> 
 
               </div> <!-- /twelve -->

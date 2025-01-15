@@ -2241,3 +2241,23 @@ hr {
 .more-projects .portfolio-wrapper {
 	text-align: left;
 }
+
+
+    #eventos {
+        color: white; /* Set font color to white */
+    }
+
+    #eventos .accordion-button {
+        background-color: rgba(255, 255, 255, 0.1); /* Optional: Style the accordion buttons */
+        color: white; /* Change button text color */
+    }
+
+    #eventos .accordion-body {
+        color: white; /* Ensure body content is also white */
+    }
+
+    #eventos .list-group-item {
+        background-color: transparent; /* Transparent background for better visibility */
+        border: none; /* Optional: Remove list borders */
+        color: white; /* Ensure list text is white */
+    }
