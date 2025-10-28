@@ -63,8 +63,17 @@
                 // Armazenar informações do usuário na sessão
                 $_SESSION['username'] = $username;
 
-                // Redirecionar para a página admin.php
-                header('Location: admin.php');
+                // Verifica se há um redirecionamento pendente
+if (isset($_SESSION['redirect_after_login'])) {
+    $redirect = $_SESSION['redirect_after_login'];
+    unset($_SESSION['redirect_after_login']); // limpa
+    header("Location: $redirect");
+    exit();
+} else {
+    // Se não houver, manda para o painel padrão
+    header("Location: admin.php");
+    exit();
+}
                 exit();
             } else {
                 $error = "Credenciais inválidas. Tente novamente.";

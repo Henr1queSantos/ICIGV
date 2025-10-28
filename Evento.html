@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+  <title>Evento</title>
+  <meta name="description" content="">  
+  <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/media-queries.css">         
+
+   <!-- Script
+   =================================================== -->
+  <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+  =================================================== -->
+  <link rel="shortcut icon" href="favicon.png" >
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #fff8e1 0%, #fdfdfd 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .background-layer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle at top left, rgba(223,192,81,0.25), transparent 70%),
+                  radial-gradient(circle at bottom right, rgba(223,192,81,0.2), transparent 70%);
+      backdrop-filter: blur(10px);
+      z-index: 0;
+    }
+
+    /* 🔸 Banner com borda justa dourada */
+    .top-banner {
+      width: 100%;
+      max-width: 600px;
+      margin-top: 40px;
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 6px 30px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 4px; /* 🔹 borda fina e colada à imagem */
+    }
+
+    .top-banner img {
+      width: 100%;
+      height: auto;
+      max-height: 600px; /* 🔹 30% maior */
+      object-fit: contain; /* 🔹 mantém proporção e preenche borda */
+      border-radius: 16px;
+      display: block;
+    }
+
+    /* 🔸 Container do formulário */
+    .form-container {
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.97);
+      border-radius: 20px;
+      box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+      padding: 40px;
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+      margin-top: 40px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #1e1e1e;
+      font-weight: 700;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 25px;
+      font-size: 15px;
+    }
+
+    label {
+      display: block;
+      text-align: left;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #333;
+      font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="file"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 18px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+      background: rgba(255, 255, 255, 0.85);
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      border-color: #DFC051;
+      outline: none;
+      background: #fff;
+      box-shadow: 0 0 5px rgba(223, 192, 81, 0.4);
+    }
+
+    .phone-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .phone-group input:first-child {
+      width: 35%;
+    }
+
+    .phone-group input:last-child {
+      width: 65%;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #DFC051, #c7a63f);
+      color: #1e1e1e;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+      background: linear-gradient(135deg, #c7a63f, #DFC051);
+      transform: translateY(-1px);
+    }
+
+    .whatsapp-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background: #25D366;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .whatsapp-link:hover {
+      background: #1ebe5d;
+      transform: translateY(-1px);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 700px) {
+      .top-banner {
+        max-width: 95%;
+        padding: 3px;
+        margin-top: 20px;
+      }
+
+      .top-banner img {
+        max-height: 380px;
+      }
+
+      .form-container {
+        padding: 25px;
+      }
+
+      .phone-group {
+        flex-direction: column;
+      }
+
+      .phone-group input {
+        width: 100% !important;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+   <div id="top"></div>
+   <div id="preloader"> 
+     <div id="status">
+         <img src="images/loader.gif" height="60" width="60" alt="">
+         <div class="loader">Loading...</div>
+      </div>
+   </div>
+
+   <!-- Header
+   =================================================== -->
+   <header id="main-header">
+
+    <div class="row header-inner">
+
+        <div class="logo">
+           <a href="index.html"></a>
+        </div>
+
+        <nav id="nav-wrap">         
+           
+           <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+            <span class='menu-text'>Show Menu</span>
+            <span class="menu-icon"></span>
+           </a>
+          <a class="mobile-btn" href="#" title="Hide navigation">
+            <span class='menu-text'>Hide Menu</span>
+            <span class="menu-icon"></span>
+          </a>         
+
+           <ul id="nav" class="nav">
+              <li><a href="index.html#home">Home</a></li>
+             <li><a href="index.html#portfolio">Sobre nós</a></li>
+              <li><a href="index.html#calendario">Programação</a></li>
+              <li><a href="index.html#atividades">Atividades</a></li>
+              <li class="current"><a href="index.html#eventos">Próximos Eventos</a></li>          
+              <li><a href="index.html#contact">Contatos</a></li>
+           </ul> 
+
+        </nav> <!-- /nav-wrap -->       
+
+     </div> <!-- /header-inner -->
+
+   </header>
+
+   <!-- Content
+   ================================================== -->
+   <section id="content">
+
+    <div class="row portfolio-content" style="text-align: center;">
+
+  <div class="background-layer"></div>
+
+  <!-- 🔹 Banner com borda justa -->
+  <div class="top-banner">
+    <img src="imagem.jpeg" alt="Banner do Evento">
+  </div>
+
+  <!-- 🔹 Formulário -->
+  <div class="form-container">
+    <h2>Inscrição</h2>
+    <p>Preencha o formulário para garantir sua vaga</p>
+
+    <form action="enviar.php" method="POST" enctype="multipart/form-data">
+      <label for="nome">Nome Completo</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="codigo">Código do País</label>
+		<input type="text" id="codigo" name="codigo" placeholder="351" required >
+
+		<label for="numero">Número</label>
+		<input type="text" id="numero" name="numero" placeholder="912345678" required >
+
+      <label for="anexo">Comprovante (Imagem ou PDF)</label>
+      <input type="file" id="anexo" name="anexo" accept=".jpg,.jpeg,.png,.pdf" required />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <a href="https://wa.me/351967620688" target="_blank" class="whatsapp-link">
+      💬 Fale no WhatsApp
+    </a>
+  </div>    
+
+     </div> <!-- /portfolio-content -->
+
+   </section> <!-- /content -->  
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/backstretch.js"></script> 
+   <script src="js/waypoints.js"></script>  
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
