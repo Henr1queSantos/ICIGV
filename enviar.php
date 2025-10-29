@@ -74,10 +74,6 @@ try {
         <p><strong>Email:</strong> {$email}</p>
         <p><strong>Contacto:</strong> +{$codigo} {$numero}</p>
         <hr>
-        <p><strong>Dados para pagamento:</strong></p>
-        <p>💳 <strong>IBAN:</strong> PT50 0033 0000 4541 4890 0720 5<br>
-        📱 <strong>MBWAY:</strong> 967 620 688</p>
-        <br>
         <p>Este email foi enviado automaticamente pelo formulário do site.</p>
     </body></html>";
 
