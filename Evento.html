@@ -54,7 +54,6 @@
       bottom: 0;
       background: radial-gradient(circle at top left, rgba(223,192,81,0.25), transparent 70%),
                   radial-gradient(circle at bottom right, rgba(223,192,81,0.2), transparent 70%);
-      backdrop-filter: blur(10px);
       z-index: 0;
     }
 
@@ -215,6 +214,41 @@
         width: 100% !important;
       }
     }
+
+    /* 🔹 Estilo do mapa responsivo */
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 0;
+  padding-bottom: 56.25%; /* proporção 16:9 */
+  margin: 0 auto 25px auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.map-container p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.local-info,
+.payment-info,
+.map-container {
+  position: relative;
+  z-index: 1;
+}
   </style>
 
 </head>
@@ -277,6 +311,30 @@
   <div class="top-banner">
     <img src="imagem.jpeg" alt="Banner do Evento">
   </div>
+
+
+<div class="local-info">
+        <p><strong>Local:</strong></p>
+         <p><strong>Rua de São João, Bairro São João Da Carreira Armazém 2, 3500-187 Viseu</p>
+</div>
+
+
+
+<div class="map-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.1597008331937!2d-7.889786523588079!3d40.67045004015779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2337b09e7fc6e9%3A0xffa43e1dbac8e807!2sIgreja%20Crist%C3%A3%20Internacional%20Gra%C3%A7a%20e%20Vida!5e0!3m2!1sen!2spt!4v1761729337162!5m2!1sen!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <p>
+    <a href="https://maps.app.goo.gl/KwS6DoDYn68XMVqh9" target="_blank" style="text-decoration:none; color:#DFC051; font-weight:600;">
+      📍 Ver no Google Maps
+    </a>
+  </p>
+</div>
+
+<div class="payment-info">
+        <p><strong>Opções de pagamento</strong></p>
+         <p><strong>IBAN:</strong> PT50 0033 0000 4541 4890 0720 5<br>
+         <strong>MBWAY:</strong> 967 620 688</p>
+</div>
+
 
   <!-- 🔹 Formulário -->
   <div class="form-container">
